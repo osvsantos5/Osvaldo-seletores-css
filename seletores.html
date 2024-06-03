@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> Exemplo de HTML</title>
+    <title>Exemplo de HTML</title>
 </head>
 
 <body>
@@ -16,9 +16,16 @@
         </ul>
         <div class="filho-4" id="id-filho">
             Item solto
-        </div>
+            
+            </div>
         <br><br>
     </div>
+
+    <label for="aceitar-termos">
+        <input type="checkbox" id="aceitar-termos" name="aceitar-termos">
+        Aceito os termos e condições
+    </label>
+    <br><br>
 
     <div class="pai-tio-1" name="nome-do-atributo">
         <span class="irmao" id="irmao-1"> Irmão 1 </span>
@@ -36,7 +43,7 @@
                 <option class="filho-3" value="medio">Médio</option>
                 <option class="filho-4" value="pouco">Pouco</option>
             </select>
-            <input id="id-enviar" type="submit" value="Enviar">
+            <input id="id-enviar" data-test="btn-enviar" type="submit" value="Enviar">
         </form>
     </div>
 
